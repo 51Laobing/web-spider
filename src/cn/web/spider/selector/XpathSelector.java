@@ -8,7 +8,7 @@ import us.codecraft.xsoup.Xsoup;
 import java.util.List;
 
 /**
- * XPath selector based on Xsoup.<br>
+ * XPath/Xsoup
  *
  * @author keehang
  * @since 0.3.0

@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Selectable plain text.<br>
- * Can not be selected by XPath or CSS Selector.
+ * 文本
+ * @author jinhang
  *
- * @author keehang
- * 
  */
 public class PlainText extends AbstractSelectable {
 

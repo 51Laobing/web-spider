@@ -15,12 +15,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.Map;
 
-/**
- * Store results in files.<br>
- *
- * @author keehang
- * 
- */
+
 @ThreadSafe
 public class FilePipeline extends FilePersistentBase implements Pipeline {
 

@@ -1,11 +1,9 @@
 package cn.web.spider.selector;
 
 /**
- * Object contains regex results.<br>
- * For multi group result extension.<br>
+ * 正则
+ * @author jinhang
  *
- * @author keehang
- * 
  */
 class RegexResult {
 

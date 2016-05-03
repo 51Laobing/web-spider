@@ -6,9 +6,9 @@ import us.codecraft.xsoup.XTokenQueue;
 import java.util.List;
 
 /**
- * parse json
- * @authorkeehang
- * @since 0.5.0
+ * fastjson也行
+ * @author jinhang
+ *
  */
 public class Json extends PlainText {
 

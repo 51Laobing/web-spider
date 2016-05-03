@@ -4,12 +4,6 @@ import org.jsoup.nodes.Element;
 
 import java.util.List;
 
-/**
- * Selector(extractor) for html elements.<br>
- *
- * @author keehang
- * @since 0.3.0
- */
 public interface ElementSelector {
 
     /**

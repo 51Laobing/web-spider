@@ -4,13 +4,9 @@ import cn.web.spider.Request;
 import cn.web.spider.Task;
 
 /**
- * Scheduler is the part of url management.<br>
- * You can implement interface Scheduler to do:
- * manage urls to fetch
- * remove duplicate urls
+ * 管理URL队列
+ * @author jinhang
  *
- * @author keehang
- * 
  */
 public interface Scheduler {
 

@@ -6,12 +6,8 @@ import cn.web.spider.utils.UrlUtils;
 
 import java.util.List;
 
-/**
- * A simple PageProcessor.
- *
- * @author keehang
- * 
- */
+
+ 
 public class SimplePageProcessor implements PageProcessor {
 
     private String urlPattern;

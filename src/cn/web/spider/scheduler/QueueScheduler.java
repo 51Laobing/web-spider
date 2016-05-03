@@ -8,13 +8,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 
-/**
- * Basic Scheduler implementation.<br>
- * Store urls to fetch in LinkedBlockingQueue and remove duplicate urls by HashMap.
- *
- * @author keehang
- * 
- */
+
 @ThreadSafe
 public class QueueScheduler extends DuplicateRemovedScheduler implements MonitorableScheduler {
 

@@ -6,10 +6,7 @@ import cn.web.spider.Task;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @authorkeehang
- * @since 0.4.0
- */
+
 public class ResultItemsCollectorPipeline implements CollectorPipeline<ResultItems> {
 
     private List<ResultItems> collector = new ArrayList<ResultItems>();

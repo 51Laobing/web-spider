@@ -8,12 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
-/**
- * Selector in regex.<br>
- *
- * @author keehang
- * 
- */
+
 public class RegexSelector implements Selector {
 
     private String regexStr;

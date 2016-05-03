@@ -3,12 +3,7 @@ package cn.web.spider.selector;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * All extractors will do extracting separately, <br>
- * and the results of extractors will combined as the final result.
- * @author keehang
- * @since 0.2.0
- */
+
 public class OrSelector implements Selector {
 
     private List<Selector> selectors = new ArrayList<Selector>();

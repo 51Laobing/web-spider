@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Borrowed from https://code.google.com/p/cx-extractor/
+ *  https://code.google.com/p/cx-extractor/
  *
  * @author keehang
  * @since 0.4.1

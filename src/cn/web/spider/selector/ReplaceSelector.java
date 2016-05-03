@@ -5,12 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
-/**
- * Replace selector.<br>
- *
- * @author keehang
- * 
- */
+
 public class ReplaceSelector implements Selector {
 
     private String regexStr;

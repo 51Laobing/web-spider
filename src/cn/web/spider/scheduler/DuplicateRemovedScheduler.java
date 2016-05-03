@@ -7,12 +7,6 @@ import cn.web.spider.Task;
 import cn.web.spider.scheduler.component.DuplicateRemover;
 import cn.web.spider.scheduler.component.HashSetDuplicateRemover;
 
-/**
- * Remove duplicate urls and only push urls which are not duplicate.<br><br>
- *
- * @author code4crafer@gmail.com
- * @since 0.5.0
- */
 public abstract class DuplicateRemovedScheduler implements Scheduler {
 
     protected Logger logger = LoggerFactory.getLogger(getClass());

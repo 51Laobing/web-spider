@@ -1,7 +1,7 @@
 package cn.web.spider.selector;
 
 /**
- * Convenient methods for selectors.<br>
+ * 
  *
  * @author keehang
  * @since 0.2.1
@@ -32,12 +32,6 @@ public abstract class Selectors {
         return new XpathSelector(expr);
     }
 
-    /**
-     * @Deprecated
-     * @see #xpath(String)
-     * @param expr expr
-     * @return new selector
-     */
     public static XpathSelector xsoup(String expr) {
         return new XpathSelector(expr);
     }

@@ -8,12 +8,6 @@ import cn.web.spider.Task;
 import java.nio.charset.Charset;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * BloomFilterDuplicateRemover for huge number of urls.
- *
- * @author code4crafer@gmail.com
- * @since 0.5.1
- */
 public class BloomFilterDuplicateRemover implements DuplicateRemover {
 
     private int expectedInsertions;
@@ -26,11 +20,7 @@ public class BloomFilterDuplicateRemover implements DuplicateRemover {
         this(expectedInsertions, 0.01);
     }
 
-    /**
-     *
-     * @param expectedInsertions the number of expected insertions to the constructed
-     * @param fpp the desired false positive probability (must be positive and less than 1.0)
-     */
+  
     public BloomFilterDuplicateRemover(int expectedInsertions, double fpp) {
         this.expectedInsertions = expectedInsertions;
         this.fpp = fpp;

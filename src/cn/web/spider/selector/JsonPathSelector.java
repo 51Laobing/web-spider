@@ -4,13 +4,10 @@ import com.jayway.jsonpath.JsonPath;
 
 import java.util.ArrayList;
 import java.util.List;
-
 /**
- * JsonPath selector.<br>
- * Used to extract content from JSON.<br>
+ * json/jsonp
+ * @author jinhang
  *
- * @author keehang
- * @since 0.2.1
  */
 public class JsonPathSelector implements Selector {
 

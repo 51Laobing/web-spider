@@ -7,9 +7,7 @@ import cn.web.spider.Task;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author code4crafer@gmail.com
- */
+
 public class HashSetDuplicateRemover implements DuplicateRemover {
 
     private Set<String> urls = Sets.newSetFromMap(new ConcurrentHashMap<String, Boolean>());

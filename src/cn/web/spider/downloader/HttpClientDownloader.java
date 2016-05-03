@@ -36,7 +36,6 @@ import java.util.Set;
 
 
 /**
- * The http downloader based on HttpClient.
  *
  * @author keehang
  * 

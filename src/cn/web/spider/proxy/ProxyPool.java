@@ -16,9 +16,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.DelayQueue;
 
 /**
- * Pooled Proxy Object
+ * 代理池
  *
- * @author yxssfxwzy@sina.com <br>
+ * @author yxssfxwzy@sina.com
  * @see Proxy
  * @since 0.5.1
  */

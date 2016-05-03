@@ -10,12 +10,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Selectable html.<br>
- *
- * @author keehang
- * 
- */
+
 public class Html extends HtmlNode {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
