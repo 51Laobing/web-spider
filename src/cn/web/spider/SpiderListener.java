@@ -1,10 +1,9 @@
 package cn.web.spider;
 
 /**
- * Listener of Spider on page processing. Used for monitor and such on.
+ * 监听页面抓取
  *
- * @author code4crafer@gmail.com
- * @since 0.5.0
+ * @author keehang
  */
 public interface SpiderListener {
 

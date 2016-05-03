@@ -1,12 +1,9 @@
 package cn.web.spider;
 
 /**
- * Interface for identifying different tasks.<br>
+ * 区分任务
  *
  * @author keehang
- * 
- * @see cn.web.spider.scheduler.Scheduler
- * @see cn.web.spider.pipeline.Pipeline
  */
 public interface Task {
 

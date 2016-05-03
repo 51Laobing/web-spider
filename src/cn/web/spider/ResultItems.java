@@ -5,13 +5,10 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Object contains extract results.<br>
- * It is contained in Page and will be processed in pipeline.
+ * 抽取解析结果
  *
  * @author keehang
  * 
- * @see Page
- * @see cn.web.spider.pipeline.Pipeline
  */
 public class ResultItems {
 

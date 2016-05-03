@@ -10,10 +10,9 @@ import cn.web.spider.utils.UrlUtils;
 import java.util.*;
 
 /**
- * Object contains setting for crawler.<br>
+ * 爬虫配置
  *
  * @author keehang
- * @see cn.web.spider.processor.PageProcessor
  * 
  */
 public class Site {

@@ -9,19 +9,10 @@ import cn.web.spider.utils.UrlUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Object storing extracted result and urls to fetch.<br>
- * Not thread safe.<br>
- * Main method：                                               <br>
- * {@link #getUrl()} get url of current page                   <br>
- * {@link #getHtml()}  get content of current page                 <br>
- * {@link #putField(String, Object)}  save extracted result            <br>
- * {@link #getResultItems()} get extract results to be used in {@link cn.web.spider.pipeline.Pipeline}<br>
- * {@link #addTargetRequests(java.util.List)} {@link #addTargetRequest(String)} add urls to fetch                 <br>
+/**             
  *
  * @author keehang
- * @see cn.web.spider.downloader.Downloader
- * @see cn.web.spider.processor.PageProcessor
+
  * 
  */
 public class Page {

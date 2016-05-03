@@ -6,8 +6,7 @@ import cn.web.spider.Task;
 import java.util.Map;
 
 /**
- * Write results in console.<br>
- * Usually used in test.
+ * 结果输出到控制台
  *
  * @author keehang
  * 

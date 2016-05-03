@@ -2,12 +2,7 @@ package cn.web.spider.utils;
 
 import java.io.File;
 
-/**
- * Base object of file persistence.
- *
- * @author keehang
- * @since 0.2.0
- */
+
 public class FilePersistentBase {
 
     protected String path;

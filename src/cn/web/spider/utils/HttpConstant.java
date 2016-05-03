@@ -1,10 +1,6 @@
 package cn.web.spider.utils;
 
-/**
- * Some constants of Http protocal.
- * @author code4crafer@gmail.com
- * @since 0.5.0
- */
+
 public abstract class HttpConstant {
 
     public static abstract class Method {

@@ -7,8 +7,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Object contains url to crawl.<br>
- * It contains some additional information.<br>
  *
  * @author keehang
  * 
